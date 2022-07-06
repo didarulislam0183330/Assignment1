@@ -1,0 +1,228 @@
+body{
+    margin:0;
+    padding: 0;
+}
+section{
+    padding-top: 120px;
+    padding-right: 100px;
+}
+/*------------------Bannner Part------------------*/
+.banner-section{
+    background-image:url(images/donation2.jpg);
+    height:600px;
+    width:100%;
+    background-size: cover;
+    position: relative;
+
+}
+.background-image{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    margin: 0;
+}
+.background-image h1{
+    font-size: 40px;
+    color:white;
+    position: absolute;
+    top:25%;
+    text-align: cemter;
+    font-family: 'Lato', sans-serif;
+   
+}
+.background-image p{
+    color:white;
+    position: absolute;
+    top:38%;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: cemter;
+    font-family: 'Lato', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+#button{
+    background-color: #a3092df7;; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    position: absolute;
+    top:53%;
+    font-size: 20px;
+}
+
+/*------------------Donate Now Part------------------*/
+.doante-now{
+    text-align: center;
+    margin-left: 100px;
+    
+}
+#donates-heading{
+    font-size: 50px;
+    font-weight: 700;
+    top:5%;
+}
+#donates-paragraph{
+    text-align: center;
+    position: relative;
+    color:#a39191;
+    
+}
+.Amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 30px;
+}
+/*------------------Plan-Section Part------------------*/
+.plan-section{
+    text-align: center;
+    margin-left: 100px;
+}
+.plan-section h3{
+    font-size: 50px;
+    color: grey;
+}
+
+.plan-section p{
+    font-size: large;
+    color: grey;
+}
+
+.plan{
+   display: flex;
+   margin-left:300px;
+   margin-top: 50px;
+}
+#food{
+    background-color: #095a53;
+    box-shadow: 10px 10px 15px #c99c9c;
+    padding: 30px;
+    width: 20%;
+  
+    margin-right: 10px;
+    height: 200px;
+    border-radius: 5px;
+}
+#clothes{
+    background-color: #095a53;
+    box-shadow: 10px 10px 15px #c99c9c;
+    padding: 30px;
+    width: 20%;
+    margin-right: 10px;
+}
+#shelter{
+    background-color: #095a53;
+    box-shadow: 10px 10px 15px #c99c9c;
+    padding: 30px;
+    width: 20%;
+  
+    
+}
+#icons{
+    font-size: 30px;
+    color:white;
+}
+h5{
+    color:white;
+}
+#plan{
+    color:white;
+}
+
+/*------------------New Section Part------------------*/
+
+.new-part{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 350px;
+ 
+    
+}
+.first-new{
+    border:1px solid;
+    margin: 20px;
+    width: 320px;
+    height:300px;
+    background-color: #166444;
+}
+
+.second-new{
+    border:1px solid;
+    margin: 20px;
+    width: 320px;
+    height:300px;
+    background-color: #166444;
+}
+#new-img{
+    height:100px;
+    width: 100%; 
+}
+
+.new-button
+{
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    background-color:#b3efb6 
+
+}
+
+/*------------------Updates Section Part------------------*/
+
+.updates-section{
+    text-align: center;
+    margin-left: 120px;
+}
+
+.update-part{
+    background-color: #f3e1e1;
+    height: 120px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 50px;
+}
+
+.updates-form{
+    padding-top: 50px;
+}
+
+#updates{
+    border: 1px solid;
+
+}
+
+#fname{
+    border: none;
+    font-size: 15px;
+    text-align: center;
+}
+#horizonal{
+    width: 500px;
+    color:blueviolet
+}
+
+/*------------------Footer Part------------------*/
+.footer{
+    background-color: #121234;
+    text-align: center;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
